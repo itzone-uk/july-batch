@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms | Main Page</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/form">Form Page</a></li>
+    </ul>
+  </header>
+  <main>
+    <center>
+      <h1>Forms Page</h1>
+    </center>
+    <form action="">
+
+      <!-- Complete Name Fieldset -->
+      <fieldset>
+       
+        <legend align="center">Your Full Name</legend>
+
+      <div>
+        <label for="FirstName">First name</label>
+        <input type="text" placeholder="Muhammad" name="FirstName">
+      </div>
+      <div>
+        <label for="LastName">Last name</label>
+        <input type="text" placeholder="Ali" name="LastName">
+      </div>
+     
+      </fieldset>
+
+
+      <!-- Remaining Form -->
+      <div>
+        <label for="PhoneNumber">Phone Number</label>
+        <input type="tel" name="PhoneNumber" placeholder="0300 0001122" value="+92" maxlength="13" minlength="11" id="">
+      </div>
+      <div>
+        <label for="Gender">Gender</label>
+        <div>
+          &emsp;<label for="Gender_Male">Male</label>
+          &emsp;<input type="radio" name="Gender" value="Male" id="">
+        </div>
+        <div>
+          &emsp;<label for="Gender_Female">Female</label>
+          <input type="radio" name="Gender" value="Female">
+        </div>
+      </div>
+      
+      <section></section>
+      
+      <div class="userAggrement">
+        <input type="checkbox" value="reset">
+        <label for="">For user Aggrement Please check it </label>
+      </div>
+      <div class="otherInputElements">
+        <input type="button" value="reset">
+        <input type="color" name="color" id="">
+      </div>
+
+      <div>
+        <input type="submit" name="" id="">
+        <input type="reset" value="Reset">
+      </div>
+      <!-- <input type="text" name="" id="" /> -->
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
