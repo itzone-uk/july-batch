@@ -6,31 +6,89 @@
       3. by id
 
     */
-    h2 {
-      color: yellow;
-      background-color: green;
-    }
-    a {
-      color: green;
-    }
-    .first-para {
-      color: yellow;
-      background-color: blueviolet;
-    }
-    .second-para {
-      color: bisque;
-      background-color: black;
-    }
-    .third-para {
-      color: aquamarine;
-    }
-    #third {
-      background-color: brown;
-    }
-    .inline-span {
-      color: green;
-    }
-    .h2 {
-      background-color: aquamarine;
-      color: black;
-    }
+
+
+    /* 
+    
+    other types of selectors: pseudo selectors
+     - pseudo-classes: :link, :visited, :hover, :active , :focus
+   
+
+     other pseudo selectors
+     :nth-child() 
+
+    
+    */
+
+
+h2:focus {
+  color: yellow;
+  background-color: green;
+}
+
+
+a {
+  color: green;
+}
+a:focus {
+  color: yellow;
+}
+
+
+a:visited {
+  color: black;
+}
+a:hover {
+  background-color: blue;
+}
+a:active {
+  color: red;
+}
+
+.first-para {
+  color: yellow;
+  background-color: blueviolet;
+}
+
+.second-para {
+  color: bisque;
+  background-color: black;
+}
+
+.third-para {
+  color: aquamarine;
+}
+
+#third {
+  background-color: brown;
+}
+
+.inline-span {
+  color: green;
+}
+
+.h2 {
+  background-color: aquamarine;
+  color: black;
+}
+
+.focused {
+  color: yellow;
+  background-color: green;
+}
+
+.focused:hover {
+  color: white;
+  background-color: red;
+}
+
+.focused:focus {
+  color: green;
+  background-color: yellow;
+}
+
+
+
+.first-para:nth-child(1) {
+  color: green;
+}

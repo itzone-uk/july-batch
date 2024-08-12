@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Selectors</title>
+
+  <style>
+    p {
+      color: yellow;
+    }
+
+    body>p:nth-child(3) {
+      color: green;
+    }
+
+
+
+    /* p:has(+ p) {
+      background-color: brown;
+    } */
+
+
+    div > p ~ p {
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <p>Lorem, ipsum.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nulla et quod eum quasi, libero corporis, nesciunt porro ab provident voluptate ipsam aspernatur quo eligendi. Facilis voluptatem asperiores incidunt expedita?</span>
+    <p>Lorem, ipsum dolor.</p>
+    <section>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus.</p>
+      <p>Est obcaecati, repellat veritatis id qui odio blanditiis eos vel?</p>
+      <p>Eaque a sed quas dignissimos quidem at non hic velit.</p>
+      <p>Consequatur, ad fuga! Provident voluptatem veritatis sed dignissimos natus cumque?</p>
+      <p>Architecto voluptates cumque numquam dolorum minima possimus maxime, vitae iure!</p>
+      <p>Quas nobis id asperiores similique, odit harum architecto vitae! Laborum.</p>
+      <p>Sequi velit consequuntur saepe consectetur incidunt error iusto soluta quo?</p>
+      <p>Excepturi ipsum nam possimus quae numquam neque qui, reiciendis laboriosam!</p>
+      <p>Qui nobis tenetur, deleniti velit laboriosam sed optio eum veritatis!</p>
+      <p>Nobis est ullam harum saepe molestiae autem accusantium possimus voluptatibus.</p>
+
+    </section>
+
+
+  </div>
+
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p class="background-color">Consectetur, adipisicing elit. Fugit, labore.</p>
+  <p>Vel, quasi consequuntur enim magni unde voluptatem.</p>
+
+</body>
+
+</html>
