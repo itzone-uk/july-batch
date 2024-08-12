@@ -8,24 +8,22 @@
 
   <style>
     p {
-      color: yellow;
+      color: rgb(red, green, blue);
+      color: hwb(180 14% 19% / 0.522);
     }
 
     body>p:nth-child(3) {
       color: green;
     }
 
-
-
     /* p:has(+ p) {
       background-color: brown;
     } */
 
 
-    div > p ~ p {
+    div>p~p {
       color: red;
     }
-
   </style>
 </head>
 
@@ -36,7 +34,9 @@
     <p>Lorem, ipsum dolor.</p>
     <p>Lorem, ipsum dolor.</p>
     <p>Lorem, ipsum dolor.</p>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nulla et quod eum quasi, libero corporis, nesciunt porro ab provident voluptate ipsam aspernatur quo eligendi. Facilis voluptatem asperiores incidunt expedita?</span>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nulla et quod eum quasi, libero corporis,
+      nesciunt porro ab provident voluptate ipsam aspernatur quo eligendi. Facilis voluptatem asperiores incidunt
+      expedita?</span>
     <p>Lorem, ipsum dolor.</p>
     <section>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus.</p>
