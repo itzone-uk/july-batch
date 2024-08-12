@@ -1,0 +1,36 @@
+/* for applying internal or external css there are different methods of selecting elements
+      basically there are 3 types of selectors
+      
+      1. by tagname
+      2. by classname
+      3. by id
+
+    */
+    h2 {
+      color: yellow;
+      background-color: green;
+    }
+    a {
+      color: green;
+    }
+    .first-para {
+      color: yellow;
+      background-color: blueviolet;
+    }
+    .second-para {
+      color: bisque;
+      background-color: black;
+    }
+    .third-para {
+      color: aquamarine;
+    }
+    #third {
+      background-color: brown;
+    }
+    .inline-span {
+      color: green;
+    }
+    .h2 {
+      background-color: aquamarine;
+      color: black;
+    }
