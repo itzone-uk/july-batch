@@ -1,0 +1,86 @@
+
+
+body {
+  background-color: green;
+}
+
+
+main {
+  height: 300px;
+  width: 600px;
+  /* width: 100%; */
+  background-color: aqua;
+}
+
+/* 
+
+for structure tags there are 6 methods to apply sizes
+
+Method 1: Using pixel values (px)
+
+Method 2: Using percentages (%)
+
+Method 3: Using em (This is the default method in CSS)
+
+Method 4: Using vw (viewport width) - This is a relative unit that is calculated based on the width of the viewport of the device.
+
+Method 5: Using vh (viewport height) - This is a relative unit that is calculated based on the height of the viewport of the device.
+
+Method 6: Using vmin (viewport minimum width or height) - This is a relative unit that is calculated based on the smaller of the viewport width or height.
+
+*/
+
+#main-heading {
+  font-size: 2.5rem;
+}
+
+
+.first-div {
+   height: 200px;
+   width: 50%;
+  background-color: lightblue;
+}
+
+.inner-div {
+  height: 100px;
+  /* width: 100vw; */
+  background-color: lightgreen;
+}
+
+/* 
+
+for text sizes there are 3 main methods to apply sizes
+
+Method 1: Using pixel values (px)
+Method 2: Using rem 
+    - rem is a relative unit that is calculated based on the font-size of the root element (html in this case)
+    - This makes the size of the text relative to the size of the text on the root element
+    - This makes the text responsive and easy to scale
+
+  1rem = 16px in laptops 
+  1rem = 12/11px in some mobiles 
+
+Method 3: Using em 
+    - em is a relative unit that is calculated based on the font-size of the parent element - This makes the size of the text relative to the size of the text on the parent element */
+
+#sub-heading {
+  font-size: 1.5rem;
+}
+
+#paragraph {
+  font-size: 1rem;
+}
+
+
+.before-footer {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+}
+
+footer {
+  height: 100px;
+  width: 100vw;
+  background-color: lightgray;
+
+}
