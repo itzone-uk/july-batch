@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-direction: column;
+ }
+
+ header div:nth-child(1) {
+  /* background-color: aquamarine; */
+  padding-inline: 2rem;
+ }
+
+ header div p {
+  text-align: center;
+ }
+
+  header nav ul {
+    background-color: aqua;
+    height: 50px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start -- flex-end; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+
+  }
+  header nav li {
+    background-color: brown;
+    /* padding: 10px; */
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }

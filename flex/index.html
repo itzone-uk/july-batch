@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/header.css">
+  <title>Flex</title>
+
+  <style>
+    .card {
+      display: flex;
+      width: 300px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      margin: 20px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .cards-div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <a href="/">
+        <p>Logo</p>
+      </a>
+    </div>
+
+    <div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/flex">Flex</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+  </header>
+  <main>
+    <section class="flex-container">
+      <div>
+        <p>Box 1</p>
+      </div>
+      <div>
+        <p>Box 2</p>
+      </div>
+      <div>
+        <p>Box 3</p>
+      </div>
+      <div>
+        <p>Box 4</p>
+      </div>
+      <div>
+        <p>Box 5</p>
+      </div>
+      <div>
+        <p>Box 6</p>
+      </div>
+    </section>
+
+    <!-- Create Card -->
+
+    <div class="cards-div">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x300" alt="Placeholder">
+        <div class="card-body">
+          <h2>Card Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x300" alt="Placeholder">
+        <div class="card-body">
+          <h2>Card Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Card Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Card Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

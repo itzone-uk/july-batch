@@ -1,0 +1,37 @@
+header {
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  width: 50px;
+  /* display: ; */
+  padding: 8px;
+}
+
+header div,
+header div p,
+header nav,
+header nav ul {
+  display: inline;
+}
+
+/* h1 {
+  display: inline;
+}
+
+p {
+  display: inline;
+} */
+
+.block {
+  display: block;
+}
+
+.italic {
+  font-style: italic;
+}
