@@ -7,7 +7,6 @@
   <title>Position Properties</title>
 
   <!-- css external file links -->
-
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/position.css">
@@ -15,7 +14,6 @@
 </head>
 
 <body>
-
   <header>
     <div>
       <p>Logo</p>
@@ -55,7 +53,10 @@
       </div>
       <!-- create some cards -->
     </div>
-    <div class="position-container">
+
+
+
+    <div class="position-container sticky">
       <div class="position-item">
         <h2>Position 4</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ipsum non neque vulputate bibendum. Donec
@@ -75,6 +76,134 @@
           nisi pellentesque. Nulla facilisi.</p>
       </div>
     </div>
+
+
+
+
+
+    <style>
+      .cards-div {
+        display: grid;
+        row-gap: 1rem;
+        column-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* width: 240px; */
+      }
+
+      .card {
+        display: flex;
+        width: 260px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        /* margin: 20px; */
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .cards-div {
+        /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+      }
+    </style>
+
+    <div class="cards-div ">
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2 class="relative">First Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card relative">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2 class="absolute">Second Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Third Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+
+      <div class="card forth-card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Fourth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Fifth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Sixth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Seventh Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Eighth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Ninth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x250" alt="Placeholder">
+        <div class="card-body">
+          <h2>Tenth Card</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis vel neque at mauris gravida
+            consectetur.</p>
+        </div>
+      </div>
+
+
+    </div>
+
   </main>
   <footer></footer>
 </body>

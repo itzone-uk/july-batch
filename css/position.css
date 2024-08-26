@@ -1,4 +1,39 @@
 .position {
-  position: static;
-  position: fixed;
+  /* position: static;
+  position: fixed; */
+}
+
+header {
+  position: fixed; 
+  bottom: 0;
+  /* right: 5rem; */
+  top: 0;
+  /* top: 100vh; */
+
+  background-color: #f1f1f1;
+  width: 100%; 
+}
+
+main {
+  margin-top: 70px;
+}
+
+/* Sticky position is mixture of static and fixed */
+.sticky {
+  position: sticky;
+
+  top: 100px;
+}
+
+
+.relative {
+  position: relative;
+  /* right: 50px; */
+}
+
+
+.absolute {
+  position: absolute;
+  top: 150px;
+  /* right: 20px; */
 }
