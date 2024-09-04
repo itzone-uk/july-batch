@@ -59,6 +59,7 @@ console.log(x);
 x = 6;
 // console.log(x); // Output: 6
 
+// console.log(document)
 // creating a variable "name" and store a string "my name" in it.
 // output "my name";
 
