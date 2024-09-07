@@ -1,0 +1,83 @@
+Here are some JavaScript practice questions that incorporate objects, object destructuring, and string methods:
+
+ Objects and Object Destructuring
+1. Basic Object Creation:
+   - Create an object `student` with properties `name`, `age`, and `grade`. Access and print each property.
+
+2. Object Destructuring:
+   - Given the following object:
+     ```
+     const student = { name: 'Alice', age: 21, course: 'Computer Science' };
+     ```
+     Use object destructuring to extract the values of `name` and `age` and log them to the console.
+
+3. Nested Object Destructuring:
+   - Consider the object:
+     ```
+     const user = {
+       id: 1,
+       personalInfo: {
+         firstName: 'John',
+         lastName: 'Doe',
+         age: 30,
+       },
+       address: {
+         city: 'New York',
+         country: 'USA',
+       }
+     };
+     ```
+     Write code to destructure and extract the `firstName` and `city` properties from this object.
+
+4. Destructuring with Default Values:
+   - Given the object:
+     ```
+     const book = { title: 'The Alchemist', author: 'Paulo Coelho', year: 1988 };
+     ```
+     Destructure `title`, `year`, and a non-existent property `publisher` (set a default value 'Unknown Publisher').
+
+5. Function with Object Destructuring:
+   - Write a function `getProductDetails` that takes an object with properties `productName`, `price`, and `stock` as an argument. Destructure the object within the function and return a formatted string: `"<productName> costs $<price> and has <stock> items available."`
+
+ Strings and String Methods
+6. String Length:
+   - Write a program that takes a string input and logs the length of the string.
+
+7. Substring Extraction:
+   - Given the string `"JavaScript is fun"`, extract and log the substring `"Script"` using an appropriate string method.
+
+8. String Search:
+   - Given the string `"I love programming"`, write a function to check if the word `"love"` exists in the string.
+
+9. String Replacement:
+   - Write code to replace the word `"boring"` with `"exciting"` in the string `"Learning JavaScript is boring"`.
+
+10. String Case Conversion:
+    - Write a program that converts the string `"hello world"` into uppercase and `"JAVASCRIPT"` into lowercase.
+
+ Combining Objects and Strings
+11. Object and String Methods Together:
+    - Given the object:
+      ```
+      const person = { firstName: 'Emily', lastName: 'Smith', age: 25 };
+      ```
+      Write a program that combines the `firstName` and `lastName` into a full name and converts it to uppercase.
+
+12. Object Property as String Search:
+    - Consider this object:
+      ```
+      const article = { title: 'The Benefits of Learning JavaScript', body: 'JavaScript is a versatile programming language.' };
+      ```
+      Write a function that checks if the word `"JavaScript"` is present in both the `title` and `body` properties of the object.
+
+13. String Concatenation in Objects:
+    - Write code to create an object `car` with properties `make`, `model`, and `year`. Then write a function to return a string in the format: `"The car is a <year> <make> <model>."`
+
+14. Count Vowels in an Object Property:
+    - Write a function that takes an object with a `name` property and returns the number of vowels in the `name`. For example:
+      ```
+      const person = { name: 'Alexander' };
+      ```
+      Should return `4` (for the vowels `A, e, a, e`).
+
+These questions should provide a solid foundation for students to practice their understanding of JavaScript objects, object destructuring, and string methods.
