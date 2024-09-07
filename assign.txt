@@ -1,0 +1,88 @@
+Here’s a revised set of JavaScript practice questions without using functions:
+
+ Objects and Object Destructuring
+
+1. Basic Object Creation:
+   - Create an object `car` with properties `brand`, `model`, and `year`. Access and print each property.
+
+2. Object Destructuring:
+   - Given the following object:
+     ```
+     const employee = { name: 'John', position: 'Developer', salary: 50000 };
+     ```
+     Use object destructuring to extract `name` and `salary` and print them to the console.
+
+3. Nested Object Destructuring:
+   - Consider the object:
+     ```
+     const library = {
+       name: 'City Library',
+       location: {
+         city: 'New York',
+         state: 'NY',
+       },
+       booksAvailable: 5000,
+     };
+     ```
+     Use destructuring to extract `city` and `booksAvailable` from the object and log them.
+
+4. Destructuring with Default Values:
+   - Given the object:
+     ```
+     const movie = { title: 'Inception', director: 'Christopher Nolan', releaseYear: 2010 };
+     ```
+     Destructure `title`, `releaseYear`, and a non-existent property `rating` (set the default value for `rating` as `'Not Rated'`) and print them.
+
+5. Renaming While Destructuring:
+   - Using the object:
+     ```
+     const gadget = { name: 'Smartphone', brand: 'XYZ', price: 899 };
+     ```
+     Destructure the `name` property and rename it to `deviceName`, and print `deviceName` and `price`.
+
+ Strings and String Methods
+
+6. String Length:
+   - Take the string `"JavaScript is awesome!"` and print its length.
+
+7. Substring Extraction:
+   - From the string `"Coding is fun"`, extract and print the substring `"fun"` using string methods.
+
+8. String Search:
+   - Take the string `"I enjoy learning JavaScript"` and use a method to check if the word `"JavaScript"` is present. Log the result (`true` or `false`).
+
+9. String Replacement:
+   - Replace the word `"difficult"` with `"exciting"` in the string `"Learning new concepts is difficult"` and print the updated string.
+
+10. String Case Conversion:
+    - Convert the string `"web development"` to uppercase and the string `"PYTHON"` to lowercase, then log both results.
+
+ Combining Objects and Strings
+
+11. Object and String Methods Together:
+    - Given the object:
+      ```
+      const user = { firstName: 'Anna', lastName: 'Johnson', role: 'Designer' };
+      ```
+      Combine `firstName` and `lastName` to form the full name and convert it to uppercase, then log it.
+
+12. String Search in Object Properties:
+    - Given this object:
+      ```
+      const article = { title: 'Learning JavaScript Basics', description: 'JavaScript is versatile and widely used.' };
+      ```
+      Use a string method to check if the word `"JavaScript"` is present in both the `title` and `description` properties and log the result (`true` or `false`).
+
+13. Concatenating Strings from Object Properties:
+    - Given the object:
+      ```
+      const animal = { type: 'Dog', breed: 'Golden Retriever', age: 3 };
+      ```
+      Create a sentence like `"The animal is a 3-year-old Golden Retriever."` using the object properties and log it.
+
+14. Count Characters in an Object Property:
+    - Given the object:
+      ```
+      const book = { title: 'War and Peace', author: 'Leo Tolstoy' };
+      ```
+      Count the number of characters in the `title` property and print the result.
