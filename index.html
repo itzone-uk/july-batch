@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions HTML</title>
+
+  
+</head>
+<body>
+  
+  <header></header>
+  <main>
+    
+
+    
+      <!-- create 2 input tags to get 2 numbers for addition -->
+      <input type="text" id="num1" required>
+      <input type="number" id="num2" placeholder="1555" required>
+      <button onclick="addNumbers()">Add</button>
+
+    
+    <p id="show">Show me</p>
+
+    <p id="result"></p>
+  </main>
+  <footer></footer>
+  
+  <script  src="/functions.js"></script>
+  <!-- YOu cannot connect js file at top of page if you are accessing DOM in it. 
+   If you want to connect js file in head tag then use "defer" attribute in script tag. This will delay js file to laod until whole page will be loaded. 
+   Basically js file will not load before page rendering.  -->
+</body>
+</html>
