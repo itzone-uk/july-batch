@@ -7,9 +7,11 @@ Here’s a revised set of JavaScript practice questions without using functions:
 
 2. Object Destructuring:
    - Given the following object:
+
      ```
      const employee = { name: 'John', position: 'Developer', salary: 50000 };
      ```
+     
      Use object destructuring to extract `name` and `salary` and print them to the console.
 
 3. Nested Object Destructuring:
