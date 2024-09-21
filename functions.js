@@ -3,14 +3,22 @@
 // Function: it is a block of code that will not run until it is called laterly.
 // DRY : Donot Repeat Yourself
 // Functions will be executed to fulfil DRY Methodology
-function functionName () {
+let n = 10;
+function functionName() {
 
 }
 
+let interval = setInterval(() => {
+  console.log(n++)
+  
+}, 2000);
+
+
+let one, two, three;
 // console.log(typeof functionName); // function
 
-function addition (first , second) {
-
+function addition(first, second) {
+  
   console.log("Value stored in first = " + first);
   console.log("Value stored in second = " + second);
   let sum = first + second;
@@ -25,28 +33,46 @@ let x = 10;
 let y = 15;
 
 // let sum1 = x + y;
-let sum1 = addition(x , y);
+// let sum1 = addition(x, y);
 
 let a = 12;
 let b = 15;
 
-let sum2 = addition(a , b);
+// let sum2 = addition(a, b);
 
 // console.log(sum)
 
 
-document.getElementById("show").innerText = sum2;
-
-
-
-function addNumbers () {
-
+function myGreeting() {
+  // document.getElementById("demo").innerHTML = "Happy Birthday!";
+  // console.log("The sum of " + sum + " is Happy Birthday!");
+  console.log(210)
   
+  document.getElementById("result").innerText = "The sum of " + one + " and " + two + " is " + three;
+  // document.getElementById("show").innerText = sum2;
+}
+
+function myStopFunction() {
+  clearTimeout(myTimeout);
+}
+
+
+function addNumbers() {
   let num1data = document.getElementById("num1").value;
-  console.log(typeof num1data);
-  let num1 = parseInt(num1data);
-  console.log(typeof num1);
-  let num2 = parseInt(document.getElementById("num2").value);
-  let sum = num1 + num2;
-  document.getElementById("result").innerText = "The sum of " + num1 + " and " + num2 + " is " + sum;
+  // console.log(typeof num1data);
+
+  one = parseInt(num1data);
+  
+  
+  // console.log(typeof num1);
+  two = parseInt(document.getElementById("num2").value);
+  clearTimeout(interval)
+  
+  console.log(two)
+  three = one + two;
+  console.log(three);
+  
+  setTimeout(myGreeting , 3000);
+  // myTimeout(sum);
+  console.log(three);
 }
