@@ -1,10 +1,22 @@
-function fetchData(callback) {
+var lname;
+
+
+function fetchData(name, callback) {
+
+  console.log("name: " + name);
+
   setTimeout(() => {
-    console.log('Data fetched!');
-    callback();
+    lname = callback();
   }, 2000); // Simulate a 2-second delay
+
+  
+  console.log('Data fetched!');
+  console.log(lname);
 }
+
 function processData() {
   console.log('Processing data...');
+  return "Raza";
 }
-fetchData(processData);
+
+fetchData("Ahmad", processData);
