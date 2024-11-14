@@ -1,99 +1,70 @@
-# MERN Stack Development Course Outline (July Batch)
+# Getting Started with Create React App
 
-Welcome to the **MERN Stack Development** course! This course covers essential technologies for full-stack web development, from building responsive websites to handling backend functionality and managing databases. Each module is broken down with detailed topics to guide you step-by-step through mastering the MERN stack.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## Table of Contents
-1. [HTML](#html)
-2. [CSS](#css)
-3. [JavaScript (Basics)](#javascript-basics)
-4. [React JS](#react-js)
-5. [Next JS](#next-js)
-6. [MongoDB](#mongodb)
+In the project directory, you can run:
 
----
+### `npm start`
 
-### HTML
-Learn the fundamentals of HTML to create well-structured and accessible web pages.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Website Structure**
-- **Tags** (Headings & Paragraphs)
-- **Attributes & Meta Tags**
-- **Element Types** (Inline vs. Block)
-- **Lists & Tables**
-- **Forms (Basics & Advanced)**
-- **Links & Multiple Pages**
-- **Containers**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### CSS
-Understand CSS to add styling and layout to your web pages, including responsive design.
+### `npm test`
 
-- **Basics** (CSS structure, inline & external styles)
-- **Selectors**
-- **Colors & Backgrounds**
-- **Font & Container Sizes**
-- **Margin, Padding, Border**
-- **Fonts & Icons**
-- **Display & Position**
-- **Transform & Animate**
-- **Responsiveness** (Media Queries)
-- **Website Task**: Apply CSS concepts in a practical website project.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### JavaScript (Basics)
-Learn the fundamentals of JavaScript to build interactive web experiences and manipulate the DOM.
+### `npm run build`
 
-- **Setting Up the Environment**
-- **Variables**
-- **Strings & String Functions**
-- **Arrays & Objects**
-- **Array Functions**
-- **Conditional Statements**
-- **Functions** (Blocks of Code)
-- **Callbacks, Promises, async/await**
-- **Timeouts**
-- **ECMAScript (ES6+ Features)** (Template Literals, Destructuring, etc.)
-- **JSON Files**
-- **Modules**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### React JS
-Dive into React to create modular, component-based frontends with state management and event handling.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Components**
-- **JSX**
-- **Props**
-- **States**
-- **Keys/Lists**
-- **Event Handling**
-- **Hooks** (useEffect, useRef, etc.)
-- **Fragments**
-- **Context**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Next JS
-Explore Next.js to add server-side rendering, dynamic pages, and API handling to your applications.
+### `npm run eject`
 
-- **Server-side & Client-side Rendering**
-- **Props Passing**
-- **Dynamic Pages**
-- **APIs** (Creating & Managing)
-- **Data Fetching**
-- **CRUD Operations** (Delete, Update)
-- **Middlewares**
-- **Authentication**
-- **Validations**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### MongoDB
-Learn MongoDB to handle database operations with ease, including CRUD operations and data querying.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Database Connection**
-- **Data Fetching**
-- **Data Manipulation** (Delete, Update, Insert)
-- **Search Operations**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Getting Started
+## Learn More
 
-1. **Clone the repository**:
-   ```bash
-   git clone [repository-url]
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
